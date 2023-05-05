@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Квасов Сергей">
+  <meta name="description" content="Тестовая страница">
+  <meta name="keywords" content="жкх, вода, html, оплата услуг">
+  <title>Авторизация</title>
+  <link rel="icon" type="image1.png" href="logo1.png">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+        
+        <header>
+            <div class="header-left">
+                <a href="index.html">
+              <img src="logo.png" alt="логотип" width="60" height="60">
+            </div>
+            <div class="header-right">
+              <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="uslugi.html">УСЛУГИ</a></li>
+                <li><a href="kontakti.html">КОНТАКТЫ</a></li>
+                <li><a href="log.html" target="_self">Личный кабинет</a></li>
+                <li><a href="log.html" ><button>ВОЙТИ</button></a></li> 
+                <li><a href="reg.html"><button>ЗАРЕГИСТРИРОВАТЬСЯ</button></a></li>
+              </ul>
+            </div>
+          </header>
+
+          <div class="login-form">
+            <form action="authorization.php" method="POST">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Войти">
+              </div>
+             <div class="span"><span>Еще не зарегистрированы?</span></div>
+    <a href="reg.html">Зарегистрироваться</a>
+             
+            </form>
+          </div>
+
+    
+          <div class="footer">
+            <p>© 2023 RainPay. Все права защищены. Надежная и удобная оплата ЖКХ по воде.</p>
+            <p>Телефон: +7 (912) 235-15-47</p>
+            <p>Адрес: г. Москва, ул. Примерная, д. 1</p>
+            <p>Почта службы поддержки: <a href="mailto:partnership@watersplash.com">partnership@watersplash.com</a></p>
+          </div>
+
+  </body>
+</html>

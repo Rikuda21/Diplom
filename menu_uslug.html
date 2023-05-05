@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Квасов Сергей">
+  <meta name="description" content="Тестовая страница">
+  <meta name="keywords" content="жкх, вода, html, оплата услуг">
+  <title>Water Splash</title>
+  <link rel="icon" type="image1.png" href="logo1.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+            <div class="header-left">
+          <a href="index.html">
+        <img src="logo.png" alt="логотип" width="60" height="60">
+      </div>
+      <div class="header-right">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="uslugi.html">УСЛУГИ</a></li>
+          <li><a href="kontakti.html">КОНТАКТЫ</a></li>
+          <li><a href="lk.html" target="_self">Личный кабинет</a></li>
+        </ul>
+      </div>
+    </header>
+
+
+    <div style="width:100%px; height:1300px; background-color:#ffffff; display:flex;" >
+        <div style="width:300px; height:1300px; background-color:#0072c6; color:#fff; padding:75px;">
+          <p style="font-size:22px; font-weight:bold;">Оставьте заявку</p>
+          <p style="font-size:28px; font-weight:bold;">8-800-222-69-86</p>
+          <p style="font-size:18px;">ежедневно с 9:00 до 21:00</p>
+        </div>
+        <div style="width:600px; height:100%; padding:40px;">
+          <h1 style="color:#0072c6;">Вид услуги</h1>
+          <div>
+            <label for="service-type">Вид работ:</label>
+            <select id="service-type" name="service-type">
+              <option value="option1">Сантехнические услуги</option>
+              <option value="option2">Специальная техника</option>
+              <option value="option3">Локальные очистные сооружения</option>
+              <option value="option4">Очистные сооружения</option>
+              <option value="option4">ЛОС для дач</option>
+              <option value="option4">ЛОС для производств</option>
+              <option value="option4">Установка и обслуживание фильтров воды</option>
+            </select>
+          </div>
+          <div>
+            <label for="city">Город:</label>
+            <select id="city" name="city">
+              <option value="voronezh">Воронеж</option>
+              <option value="moscow">Москва</option>
+              <option value="saint-petersburg">Санкт-Петербург</option>
+            </select>
+            <label for="district">Район вашего проживания:</label>
+            <select id="district" name="district">
+            
+              <option value="Железнодорожный">Железнодорожный</option>
+              <option value="Коминтерновский">Коминтерновский</option>
+              <option value="Левобережный">Левобережный</option>
+              <option value="Ленинский">Ленинский</option>
+              <option value="Советский">Советский</option>
+              <option value="Центральный">Центральный</option>
+            </select>
+            <label for="address">Ваш адрес:</label>
+            <input type="text" id="address" name="address" placeholder="Введите ваш адрес">
+          </div>
+          <div>
+           
+          </div>
+          <div>
+            <label for="street">Улица:</label>
+            <input type="text" id="street" name="street" placeholder="Введите название улицы">
+          </div>
+          <div style="display:flex;">
+            <div style="margin-right:10px;">
+              <label for="house">Дом:</label>
+              <input type="text" id="house" name="house" placeholder="Номер дома">
+            </div>
+            <div>
+              <label for="flat">Квартира:</label>
+              <input type="text" id="flat" name="flat" placeholder="Номер квартиры">
+            </div>
+          </div>
+          <div>
+            <label for="visit-date">Укажите желаемую дату визита:</label>
+            <input type="date" id="visit-date" name="visit-date">
+          </div>
+          <div>
+            <label for="name">Фамилия Имя Отчество:</label>
+            <input type="text" id="name" name="name" placeholder="Введите ФИО">
+          </div>
+          <div>
+            <label for="phone">Ваш телефон:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Введите ваш телефон">
+            <label for="phone">Ваш Email:</label>
+            <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+            
+            <label for="comment">Комментарий:</label>
+            
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+            <div>
+              <input type="checkbox" id="agree" name="agree" required>
+              <label for="agree">Я соглашаюсь с обработкой данных и правилами оказания услуг</label>
+            </div>
+            <a href="index.html"><input type="submit" value="Отправить заявку"></a>
+            </form>
+          </div>       
+        </div>
+    </div>
+
+
+<!--Подвал-->
+
+<div class="footer">
+  <p>© 2023 RainPay. Все права защищены. Надежная и удобная оплата ЖКХ по воде.</p>
+  <p>Телефон: +7 (912) 235-15-47</p>
+  <p>Адрес: г. Москва, ул. Примерная, д. 1</p>
+  <p>Почта службы поддержки: <a href="mailto:partnership@watersplash.com">partnership@watersplash.com</a></p>
+</div>
+                    
+</body>
+</html>
+    

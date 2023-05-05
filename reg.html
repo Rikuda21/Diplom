@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Квасов Сергей">
+  <meta name="description" content="Тестовая страница">
+  <meta name="keywords" content="жкх, вода, html, оплата услуг">
+  <title>Регистрация</title>
+  <link rel="icon" type="image1.png" href="logo1.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+		<div class="header-left">
+			<a href="index.html">
+		  <img src="logo.png" alt="логотип" width="60" height="60">
+		</div>
+		<div class="header-right">
+		  <ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="uslugi.html">УСЛУГИ</a></li>
+			<li><a href="kontakti.html">КОНТАКТЫ</a></li>
+			<li><a href="log.html" target="_self">Личный кабинет</a></li>
+			<li><a href="log.html" ><button>ВОЙТИ</button></a></li> 
+            <li><a href="reg.html"><button>ЗАРЕГИСТРИРОВАТЬСЯ</button></a></li>
+		  </ul>
+		</div>
+	  </header>
+	  
+	  <div class="reg"> 
+		<form action="registration.php" method="POST">
+		  <label for="name">Login:</label>
+		  <input type="text" id="name" name="name" required>
+
+
+
+
+		  <label for="email">Email:</label>
+		  <input type="email" id="email" name="email" required oninput="checkEmail(this.value)">
+		  <div id="error_message"></div>
+
+
+
+
+		  <label for="password">Пароль:</label>
+		  <input type="password" id="password" name="password" required>
+	  
+		  <label for="confirm_password">Подтвердите пароль:</label>
+		  <input type="password" id="confirm_password" name="confirm_password" required>
+	  
+		  <label for="city">Населенный пункт:</label>
+		  <input type="text" id="city" name="city" required>
+	  
+		  <label for="street">Улица:</label>
+		  <input type="text" id="street" name="street" required>
+	  
+		  <label for="house">Дом:</label>
+		  <input type="text" id="house" name="house" required>
+	  
+		  <label for="apartment">Квартира:</label>
+		  <input type="text" id="apartment" name="apartment">
+	  
+		  <label for="full_name">Ф.И.О:</label>
+		  <input type="text" id="full_name" name="full_name" required>
+	  
+		  <label for="phone_number">Мобильный телефон:</label>
+		  <input type="tel" id="phone_number" name="phone_number" required>
+	  
+		  <label for="alt_phone_number">Дополнительный телефон:</label>
+		  <input type="tel" id="alt_phone_number" name="alt_phone_number">
+	  
+		  <input type="submit" value="Зарегистрироваться">
+		  <p>Уже зарегистрированы? <a href="log.html">Нажмите, чтобы войти</a></p>
+		</form>
+	  </div>
+
+
+	  
+	<div class="footer">
+		<p>© 2023 RainPay. Все права защищены. Надежная и удобная оплата ЖКХ по воде.</p>
+		<p>Телефон: +7 (912) 235-15-47</p>
+		<p>Адрес: г. Москва, ул. Примерная, д. 1</p>
+		<p>Почта службы поддержки: <a href="mailto:partnership@watersplash.com">partnership@watersplash.com</a></p>
+	  </div>
+
+
+</body>
+</html>
